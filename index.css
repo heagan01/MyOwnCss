@@ -1,0 +1,83 @@
+body {
+	margin: 0;
+	font-family: lato;
+}
+
+@font-face {
+	font-family: lato;
+	src: url(fonts/lato/Lato-Regular.ttf);
+}
+
+.navbar {
+	height: 92px;
+	background-color: #353130;
+	width: auto;
+	color: #fff;
+	line-height: 92px;
+	padding: 8px;
+}
+
+.item {
+	color: #99918E;
+	text-decoration: underline;
+	text-decoration-color: #99918E;
+}
+
+.item:hover {
+	color: #fff;
+	text-decoration-color: #fff;
+	text-decoration: underline;
+	transition: 0.5s;
+}
+
+.button {
+	height: 50px;
+	width: 145px;
+	margin-top: 5px;
+	border: none;
+	color: #fff;
+	background-color: #2797EF;
+	border-radius: 5px;
+}
+
+.button:hover {
+	background-color: #2E81C3;
+	transition: 0.5s;
+}
+
+.button.center.aligned {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.bold {
+	font-weight: 700px;
+}
+
+.button:focus {
+	outline: none;
+}
+
+.header.center.aligned{
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.item.active {
+	color: #fff;
+	text-decoration-color: #fff;
+	text-decoration: underline;
+}
+
+.item.no.underline {
+	text-decoration: none;
+}
+
+
+/* Things to do
+- Change the default font to Proxima NOva Soft
+*/
